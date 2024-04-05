@@ -11,9 +11,9 @@ docker buildx build \
 --platform=linux/amd64,linux/arm64 \
 --build-arg="USER_NAME=genai-for-all" \
 --build-arg="NODE_MAJOR=21" \
---push -t k33g/genai-javascript-workspace:0.0.0 .
+--push -t k33g/genai-javascript-workspace:0.0.1 .
 
-docker pull k33g/genai-javascript-workspace:0.0.0
+docker pull k33g/genai-javascript-workspace:0.0.1
 docker images | grep genai-javascript-workspace
 
 : <<'END_COMMENT'

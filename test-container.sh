@@ -8,4 +8,4 @@ docker run -it -v /var/run/docker.sock:/var/run/docker.sock --name capsule-works
 sudo chmod 666 /var/run/docker.sock
 END_COMMENT
 
-docker run -it --name capsule-workspace --rm k33g/genai-javascript-workspace:0.0.0 
+docker run -it --name capsule-workspace --rm k33g/genai-javascript-workspace:0.0.1

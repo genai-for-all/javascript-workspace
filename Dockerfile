@@ -64,6 +64,8 @@ apt-get update && apt-get install nodejs -y
 apt-get clean autoclean
 apt-get autoremove --yes
 rm -rf /var/lib/{apt,dpkg,cache,log}/
+
+npm install --global yarn
 EOF
 
 # ------------------------------------
